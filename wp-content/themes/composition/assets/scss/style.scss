@@ -1,0 +1,228 @@
+                            @import'accueil.scss';
+                            @import'blog.scss';
+                            @import'architecte.scss';
+                            @font-face {
+                                font-family: proxima;
+                                src: url(../fonts/ProximaNova-Regular.otf);
+                            }
+                            
+                            body {
+                                font-family: proxima, sans-serif;
+                            }
+                            
+                            .accueil-header {
+                                .navbar-nav {
+                                    .nav-link {
+                                        color: black !important;
+                                        text-transform: uppercase;
+                                        font-size: 11px;
+                                    }
+                                    a {
+                                        &:hover {
+                                            color: grey !important;
+                                        }
+                                    }
+                                }
+                                .navbar-collapse {
+                                    margin-right: 15%;
+                                }
+                                .logo-wishlist {
+                                    background-color: black;
+                                    color: white;
+                                    font-size: 13px;
+                                    padding-top: 8px;
+                                    padding-bottom: 8px;
+                                    padding-left: 15px;
+                                    padding-right: 15px;
+                                    img {
+                                        margin-left: 15px;
+                                        height: 11px;
+                                    }
+                                }
+                                .logo-principal {
+                                    height: 30px;
+                                    margin-left: 120%;
+                                }
+                                .logo-accueil {
+                                    margin-left: 45%;
+                                    a {
+                                        img {
+                                            height: 12px;
+                                        }
+                                    }
+                                }
+                            }
+                            
+                            .page-header {
+                                .navbar {
+                                    background: black !important;
+                                }
+                                .navbar-nav {
+                                    .nav-link {
+                                        color: white !important;
+                                        text-transform: uppercase;
+                                        font-size: 11px;
+                                    }
+                                    a {
+                                        &:hover {
+                                            color: grey !important;
+                                        }
+                                    }
+                                }
+                                .navbar-collapse {
+                                    margin-right: 15%;
+                                }
+                                .logo-wishlist {
+                                    background-color: white;
+                                    color: black;
+                                    font-size: 13px;
+                                    padding-top: 8px;
+                                    padding-bottom: 8px;
+                                    padding-left: 15px;
+                                    padding-right: 15px;
+                                    img {
+                                        margin-left: 15px;
+                                        height: 11px;
+                                        filter: invert(1);
+                                    }
+                                }
+                                .logo-principal {
+                                    height: 30px;
+                                    margin-left: 120%;
+                                    filter: invert(1);
+                                }
+                                .logo-accueil {
+                                    margin-left: 45%;
+                                    a {
+                                        img {
+                                            height: 12px;
+                                            filter: invert(1);
+                                        }
+                                    }
+                                }
+                            }
+                            
+                            // Footer 
+                            .page-footer {
+                                .sub-footer {
+                                    display: flex;
+                                    margin: 10%;
+                                    .bloc-tissu {
+                                        display: inline-flex;
+                                        width: 50%;
+                                        img {
+                                            width: 100px;
+                                            height: 100px;
+                                            border-radius: 50%;
+                                            margin-right: 10%;
+                                        }
+                                        p {
+                                            display: block;
+                                            font-size: 16px;
+                                            a {
+                                                margin-top: 10%;
+                                                font-size: 12px;
+                                                font-weight: bold;
+                                                img {
+                                                    height: 12px;
+                                                    transition: 0.5s;
+                                                    margin-left: 2%;
+                                                }
+                                                &:hover {
+                                                    img {
+                                                        transition: 0.5s;
+                                                        margin-left: 5%;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .horaire-footer {
+                                        margin-left: 10%;
+                                        height: 80%;
+                                        padding: 15px;
+                                        background-color: black;
+                                        color: white;
+                                    }
+                                }
+                                .footer-1 {
+                                    p {
+                                        font-size: 11px;
+                                        img {
+                                            margin-left: 1%;
+                                            height: 7px;
+                                            margin-left: 2%;
+                                        }
+                                        &:hover {
+                                            img {
+                                                transition: 0.5s;
+                                                margin-left: 5%;
+                                            }
+                                        }
+                                    }
+                                }
+                                .footer-2 {
+                                    font-size: 12px;
+                                    ul {
+                                        li {
+                                            p {
+                                                margin-bottom: 5px !important;
+                                                font-weight: normal;
+                                                a {
+                                                    color: black;
+                                                }
+                                                img {
+                                                    margin-right: 5%;
+                                                    height: 12px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .footer-3 {
+                                    .liste-social {
+                                        li {
+                                            p {
+                                                margin-left: 45%;
+                                            }
+                                            .copyright {
+                                                font-size: 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                                .facebook {
+                                    margin: 1%;
+                                    img {
+                                        padding: 10px;
+                                        border: 1px solid black;
+                                        height: 35px;
+                                        width: 35px;
+                                        border-radius: 50%;
+                                    }
+                                }
+                                .instagram {
+                                    margin: 1%;
+                                    img {
+                                        padding: 10px;
+                                        border: 1px solid black;
+                                        height: 35px;
+                                        width: 35px;
+                                        border-radius: 50%;
+                                    }
+                                }
+                                .pinterest {
+                                    margin: 1%;
+                                    img {
+                                        padding: 10px;
+                                        border: 1px solid black;
+                                        height: 35px;
+                                        width: 35px;
+                                        border-radius: 50%;
+                                    }
+                                }
+                            }
+                            
+                            h1 {
+                                color: yellow;
+                            }

@@ -1,0 +1,22 @@
+.container-diapo {
+    padding-top: 40vh;
+    .diaporama {
+        display: block;
+        margin-left: 10%;
+        .carousel-item {
+            img {
+                width: 700px;
+                height: 400px;
+            }
+            .carousel-caption {
+                width: 30%;
+                background-color: white;
+                h2 {
+                    background-color: white;
+                    color: black;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
